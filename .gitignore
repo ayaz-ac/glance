@@ -4,4 +4,3 @@
 /.idea
 /glance*.yml
 .env
-docker-compose.yml
