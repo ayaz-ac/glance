@@ -1,0 +1,45 @@
+- name: Chill
+  columns:
+    - size: small
+      widgets:
+        - type: calendar
+          first-day-of-week: monday
+        - type: weather
+          location: ${LOCATION}
+          hour-format: 24h
+          hide-location: true
+
+    - size: full
+      widgets:
+        - type: search
+          search-engine: google
+        - type: videos
+          style: vertical-list
+          collapse-after: 8
+          channels:
+            - UCMb0O2CdPBNi-QqPk5T3gsQ # James Hoffman
+            - UCjfPQ8Zo9NhrBa0tinsSUrQ # Charles Villa
+            - UCxH16958KSxT4Z9yL_9JYtw # Ego
+            - UCP8qYUpiUj2zppiRhqJVCDg # Fatch
+            - UCI-8QMy9n3I5Pv6mTmXoAXA # Gaspard G
+            - UC9hG6vOBOUItCifjLQfs0bA # Hafi Saddiki
+            - UC3_0GYlx_TGVdnr-6WtAlCw # Hisham Abu Yusuf
+            - UCTt2AnK--mnRmICnf-CCcrw # Kevin Tran
+            - UC-wzCLovRXvXrXXF7vFpW5A # Les Artisans de demain
+            - UCNiauGTV7XhkOpUAIXod4xA # Leo Duff
+            - UC12JO2IPlEViR-o6SLXKx1A # Marc Lou
+            - UCTM1FcLHEWbQjpNAiJw16IQ # Marr & Ari
+            - UCQjBsscIa_mgEnSvWpm_9vw # Odysseas
+            - UCMQSwUNSnMOP4IRysfeg8EA # Simon Puech
+            - UCWeg2Pkate69NFdBeuRFTAw # Squeezie
+            - UC2ruguOcwnVR2_4DtiGnmLg # The Great Review
+            - UC3vHW2h22WE-pNi5WJtRIjg # Yaqeen Institute
+            - UCUkcknjfu4gwMbGWLdcyZrA # Ramy
+        - type: group
+          widgets:
+            - type: reddit
+              subreddit: france
+              show-thumbnails: true
+            - type: reddit
+              subreddit: espresso
+              show-thumbnails: true

@@ -1,0 +1,111 @@
+- name: Tech
+  columns:
+    - size: small
+      widgets:
+        - type: calendar
+          first-day-of-week: monday
+        - type: group
+          widgets:
+          - type: hacker-news
+          - type: lobsters
+        - type: videos
+          style: vertical-list
+          collapse-after: 5
+          channels:
+            - UCLOAPb7ATQUs_nDs9ViLcMw # Benjamin Code
+            - UC44qdJgVvPEaEaojOUZpp9A # Benjamin Code Plus
+            - UC9wzC5mFFcIdguoyveTo6Ng # Ici Amy Plant
+            - UCYnvxJ-PKiGXo_tYXpWAC-w # Micode
+            - UCsBjURrPoezykLs9EqgamOA # Fireship
+            - UCBJycsmduvYEL83R_U4JriQ # Marques Brownlee
+            - UCo71RUe6DX4w-Vd47rFLXPg # typecraft
+            - UCYeiozh-4QwuC1sjgCmB92w # DevOps Toolbox
+
+    - size: full
+      widgets:
+        - type: search
+          search-engine: google
+        - type: rss
+          limit: 10
+          collapse-after: 10
+          cache: 12h
+          feeds:
+            - url: https://feeds.feedburner.com/ThePragmaticEngineer
+              title: The Pragmatic Engineer
+            - url: https://posthog.com/rss.xml
+              title: Posthog
+            - url: https://boringrails.com/feed.xml
+              title: BoringRails
+            - url: https://dev.37signals.com/feed/posts.xml
+              title: 37signals
+            - url: https://rubyonrails.org/feed.xml
+              title: RubyOnRails
+            - url: https://feed.thoughtbot.com/articles
+              title: ThoughtBot
+            - url: https://selfh.st/rss/
+              title: selfh.st
+              limit: 4
+            - url: https://samwho.dev/rss.xml
+            - url: https://ishadeed.com/feed.xml
+              title: Ahmad Shadeed
+            - url: https://newsletter.pragmaticengineer.com/feed
+              title: The Pragmatic Engineer Newsletter
+            - url: https://newsletter.posthog.com/feed
+              title: Posthog Newsletter
+        - type: group
+          widgets:
+            - type: reddit
+              subreddit: rails
+              show-thumbnails: true
+            - type: reddit
+              subreddit: ruby
+              show-thumbnails: true
+            - type: reddit
+              subreddit: technology
+              show-thumbnails: true
+            - type: reddit
+              subreddit: selfhosted
+              show-thumbnails: true
+    - size: small
+      widgets:
+        - type: weather
+          location: ${LOCATION}
+          hour-format: 24h
+          hide-location: true
+        - type: monitor
+          cache: 1h
+          title: Apps
+          style: compact
+          sites:
+            - title: ProfPlanner
+              url: https://app.profplanner.com
+            - title: MicroEntrepreneur
+              url: https://microentrepreneur.ayaz.app
+            - title: Hijra Idéale
+              url: https://hijra-ideale.ayaz.app
+            - title: n8n
+              url: https://n8n.ayaz.app
+            - title: Plausible
+              url: https://plausible.ayaz.app
+        - type: bookmarks
+          groups:
+            - links:
+              - title: Coolify
+                url: https://coolify.ayaz.app
+              - title: Personal Brand Business
+                url: https://personalbrandbusiness.schoolmaker.co/login
+              - title: Ankane blog
+                url: https://ankane.org/
+              - title: LinkRefine
+                url: https://www.linkrefine.com/
+            - title: Github repositories
+              color: 200 50 50
+              links:
+                - title: ProfPlanner
+                  url: https://github.com/ProfPlanner/profplannerapp
+                - title: MicroEntrepreneur
+                  url: https://github.com/ayaz-ac/micro-entrepreneur
+                - title: Fizzy
+                  url: https://github.com/basecamp/fizzy
+                - title: My Repositories
+                  url: https://github.com/ayaz-ac?tab=repositories&type=source
