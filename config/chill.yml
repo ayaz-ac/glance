@@ -40,6 +40,14 @@
             - type: reddit
               subreddit: france
               show-thumbnails: true
+              app-auth:
+                name: ${REDDIT_APP_NAME}
+                id: ${REDDIT_APP_CLIENT_ID}
+                secret: ${REDDIT_APP_SECRET}
             - type: reddit
               subreddit: espresso
               show-thumbnails: true
+              app-auth:
+                name: ${REDDIT_APP_NAME}
+                id: ${REDDIT_APP_CLIENT_ID}
+                secret: ${REDDIT_APP_SECRET}

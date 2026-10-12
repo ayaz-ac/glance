@@ -56,15 +56,31 @@
             - type: reddit
               subreddit: rails
               show-thumbnails: true
+              app-auth:
+                name: ${REDDIT_APP_NAME}
+                id: ${REDDIT_APP_CLIENT_ID}
+                secret: ${REDDIT_APP_SECRET}
             - type: reddit
               subreddit: ruby
               show-thumbnails: true
+              app-auth:
+                name: ${REDDIT_APP_NAME}
+                id: ${REDDIT_APP_CLIENT_ID}
+                secret: ${REDDIT_APP_SECRET}
             - type: reddit
               subreddit: technology
               show-thumbnails: true
+              app-auth:
+                name: ${REDDIT_APP_NAME}
+                id: ${REDDIT_APP_CLIENT_ID}
+                secret: ${REDDIT_APP_SECRET}
             - type: reddit
               subreddit: selfhosted
               show-thumbnails: true
+              app-auth:
+                name: ${REDDIT_APP_NAME}
+                id: ${REDDIT_APP_CLIENT_ID}
+                secret: ${REDDIT_APP_SECRET}
     - size: small
       widgets:
         - type: weather
