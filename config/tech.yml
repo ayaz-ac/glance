@@ -51,20 +51,6 @@
               title: The Pragmatic Engineer Newsletter
             - url: https://newsletter.posthog.com/feed
               title: Posthog Newsletter
-        - type: group
-          widgets:
-            - type: reddit
-              subreddit: rails
-              show-thumbnails: true
-            - type: reddit
-              subreddit: ruby
-              show-thumbnails: true
-            - type: reddit
-              subreddit: technology
-              show-thumbnails: true
-            - type: reddit
-              subreddit: selfhosted
-              show-thumbnails: true
     - size: small
       widgets:
         - type: weather
